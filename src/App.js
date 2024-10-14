@@ -44,7 +44,8 @@ function App() {
 
 
       <div style={{ marginTop: '20px', fontSize: '18px' }}>
-        Defination: {result}
+        <h5>Defination: </h5>
+        <p>{result}</p>
       </div>
     </div>
   );
