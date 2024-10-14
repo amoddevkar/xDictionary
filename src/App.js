@@ -43,10 +43,10 @@ function App() {
       </button>
 
 
-      <div style={{ marginTop: '20px', fontSize: '18px' }}>
-        <h5>Defination: </h5>
-        <p>{result}</p>
-      </div>
+
+      <h5>Defination:</h5>
+      <p>{result}</p>
+
     </div>
   );
 }
