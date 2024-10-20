@@ -30,7 +30,7 @@ function App() {
         type="text"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
-        placeholder="Enter a word"
+        placeholder="Search for a word..."
         style={{ padding: '10px', width: '200px', fontSize: '16px' }}
       />
 
@@ -44,7 +44,7 @@ function App() {
 
 
 
-      <h5>Defination:</h5>
+      <h5>Definition:</h5>
       <p>{result}</p>
 
     </div>
